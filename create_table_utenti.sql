@@ -1,19 +1,15 @@
 CREATE TABLE Persons (
-    id            INTEGER,
-    first_name    TEXT    NOT NULL,
-    last_name     TEXT    NOT NULL,
-    age           INTEGER,
-    department_id INTEGER,
-    FOREIGN KEY (
-        department_id
-    )
-    REFERENCES Departments,
+    id_utente INTEGER,
+    Nome      TEXT    NOT NULL,
+    Cognome   TEXT    NOT NULL,
+    Eta       INTEGER,
+    indirizzo TEXT,
+    carta     INTEGER,
     PRIMARY KEY (
-        id
+        id_utente
     ),
     UNIQUE (
-        first_name,
-        last_name
+        Nome,
+        Cognome
     )
 );
-ciao
