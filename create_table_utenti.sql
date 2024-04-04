@@ -1,4 +1,4 @@
-CREATE TABLE Persons (
+CREATE TABLE Utente (
     id_utente INTEGER,
     Nome      TEXT    NOT NULL,
     Cognome   TEXT    NOT NULL,
@@ -12,4 +12,4 @@ CREATE TABLE Persons (
         Nome,
         Cognome
     )
-);
+)
