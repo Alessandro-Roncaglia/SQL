@@ -16,3 +16,4 @@ CREATE TABLE Persons (
         last_name
     )
 );
+ciao
