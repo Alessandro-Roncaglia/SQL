@@ -6,3 +6,4 @@ CREATE TABLE menù(
         id_menù
     )
 );
+ 
